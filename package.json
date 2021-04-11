@@ -1,0 +1,22 @@
+{
+  "name": "fastify-farm",
+  "version": "1.0.0",
+  "description": "Квазар.Фарм",
+  "main": "index.js",
+  "author": "Ivan Milovanov <tequila00@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.14.2",
+    "fastify-autoload": "^3.7.0",
+    "fastify-cors": "^5.2.0",
+    "fastify-jwt": "^2.4.0",
+    "fastify-postgres": "^3.5.0",
+    "pg": "^8.5.1"
+  },
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
