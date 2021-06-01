@@ -1,4 +1,4 @@
-const { findAll } = require('../schemas/user')
+const { findAll } = require('./user.schema')
 
 module.exports = async (fastify, opts) => {
   fastify.get('/:id', async (req, reply) => {
@@ -16,5 +16,3 @@ module.exports = async (fastify, opts) => {
     return rows
   })
 }
-
-module.exports.autoPrefix = '/user'
